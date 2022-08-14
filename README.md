@@ -146,4 +146,4 @@ urlpatterns = [
 
 **mysite/urls.py**에 **include()** 함수를 추가하여 다른 URLconf들을 참조할 수 있도록 도와준다.
 
-Django가 함수**includ()**를 만나게 되면, URL의 그 시점까지 일치하는 부분을 잘라내고, 남은 문자열 부분을 후속 처리를 위해 include 된 URLconf로 전달
+Django가 함수 **includ()** 를 만나게 되면, URL의 그 시점까지 일치하는 부분을 잘라내고, 남은 문자열 부분을 후속 처리를 위해 include 된 URLconf로 전달
